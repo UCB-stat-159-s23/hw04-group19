@@ -1,3 +1,17 @@
+---
+jupyter:
+  jupytext:
+    text_representation:
+      extension: .md
+      format_name: markdown
+      format_version: '1.3'
+      jupytext_version: 1.14.4
+  kernelspec:
+    display_name: IPython - ligo
+    language: python
+    name: ligo
+---
+
 # Homework No 4 - _From Notebooks to Research Packages, Part II_
 
 * **Statistics 159/259, Spring 2022**

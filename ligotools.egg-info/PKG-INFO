@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ligotools
+Version: 0.0.1
+Summary: Provides tools for reading LIGO data files
+Author: Ligo Scientific Collaboration (LSC) and group19: Tianyi Chen, Saumya Choudhary, Ashwin Bindra, Minghua Tan
+Author-email: vincent-c@berkeley.edu
+License: BSD 3-Clause License
+Keywords: tools,LIGO
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# hw04-group19
+hw04-group19 created by GitHub Classroom

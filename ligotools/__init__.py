@@ -1,2 +1,2 @@
-from ligotools.readligo import *
-from ligotools.utils import *
+from .readligo import *
+from .utils import *

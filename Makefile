@@ -1,5 +1,14 @@
 ## Makefile to build JupyterBook for this repository
 
+## create_environment :
+.PHONY : env
+env: 
+	source /srv/conda/etc/profile.d/conda.sh
+	conda env create -f environment.yml
+	conda activate ligo
+	conda install ipykernel
+	python -m ipykernel install --user --name makeLigo --display-name "IPython - ligo"
+	
 ## - html    : Build static website for local display
 .PHONY: html
 html:
@@ -23,7 +32,9 @@ conf.py: _config.yml _toc.yml
 ## - clean   : remove all build files
 .PHONY: clean
 clean:
-	rm -rf _build/html/
+	rm -f audio/*
+	rm -f figures/*
+	rm -r _build/*
 
 ## - help    : Summary help of all targets in this Makefile.
 .PHONY : help

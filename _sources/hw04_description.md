@@ -7,9 +7,9 @@ jupyter:
       format_version: '1.3'
       jupytext_version: 1.14.4
   kernelspec:
-    display_name: Python 3 (ipykernel)
+    display_name: IPython - ligo
     language: python
-    name: python3
+    name: ligo
 ---
 
 # Homework No 4 - _From Notebooks to Research Packages, Part II_
